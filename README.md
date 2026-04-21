@@ -52,22 +52,16 @@ A Web Application Firewall (ModSecurity) was configured with custom rules to blo
 - XSS attempts  
 - Directory Traversal attempts  
 
-Example Rule:
-bash
-
-SecRule ARGS @rx (?i:union.select)
-
-id:11001,phase:2,deny,status:403,msg:'SQL Injection Attempt
 
 
 Results
-Sensitive directories discovered during enumeration
+1. Sensitive directories discovered during enumeration
 
-SQL Injection attempts blocked by WAF
+2. SQL Injection attempts blocked by WAF
 
-Minor configuration issues identified by OWASP ZAP
+3. Minor configuration issues identified by OWASP ZAP
 
-Overall: Application resilient against common web attacks
+4. Overall: Application resilient against common web attacks
 
 
 
@@ -89,11 +83,11 @@ Recommendations
 
 Repository Contents
 
-Report: Full PDF security assessment
+1. Report: Full PDF security assessment
 
-Screenshots: Evidence of attack simulations and defenses
+2. Screenshots: Evidence of attack simulations and defenses
 
-Config: Custom ModSecurity rules
+3. Config: Custom ModSecurity rules
 
 
 Conclusion
