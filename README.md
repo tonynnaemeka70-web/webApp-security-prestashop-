@@ -72,21 +72,23 @@ Overall: Application resilient against common web attacks
 
 
 Recommendations
-Enable HTTPS encryption
 
-Regularly update PrestaShop and modules
+1. Enable HTTPS encryption
 
-Restrict access to administrative directories
+2. Regularly update PrestaShop and modules
 
-Implement strong password policies
+3. Restrict access to administrative directories
 
-Review firewall logs frequently
+4. Implement strong password policies
 
-Disable unnecessary directories/services
+5. Review firewall logs frequently
+
+6. Disable unnecessary directories/services
 
 
 
 Repository Contents
+
 Report: Full PDF security assessment
 
 Screenshots: Evidence of attack simulations and defenses
@@ -95,6 +97,7 @@ Config: Custom ModSecurity rules
 
 
 Conclusion
+
 This project demonstrates hands-on experience in penetration testing, vulnerability scanning, and defensive security implementation.
 
 It highlights the importance of proactive security measures in protecting modern e-commerce platforms.
