@@ -54,8 +54,11 @@ A Web Application Firewall (ModSecurity) was configured with custom rules to blo
 
 Example Rule:
 bash
-SecRule ARGS @rx (?i:union.*select)
+
+SecRule ARGS @rx (?i:union.select)
+
 id:11001,phase:2,deny,status:403,msg:'SQL Injection Attempt
+
 
 Results
 Sensitive directories discovered during enumeration
@@ -65,6 +68,7 @@ SQL Injection attempts blocked by WAF
 Minor configuration issues identified by OWASP ZAP
 
 Overall: Application resilient against common web attacks
+
 
 
 Recommendations
@@ -79,6 +83,7 @@ Implement strong password policies
 Review firewall logs frequently
 
 Disable unnecessary directories/services
+
 
 
 Repository Contents
