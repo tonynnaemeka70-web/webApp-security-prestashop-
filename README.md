@@ -55,5 +55,42 @@ A Web Application Firewall (ModSecurity) was configured with custom rules to blo
 Example Rule:
 ```bash
 SecRule ARGS "@rx (?i:union.*select)" \
-"id:11001,phase:2,deny,status:403,msg:'SQL Injection Attempt'"
+"id:11001,phase:2,deny,status:403,msg:'SQL Injection Attempt
+
+Results
+Sensitive directories discovered during enumeration
+
+SQL Injection attempts blocked by WAF
+
+Minor configuration issues identified by OWASP ZAP
+
+Overall: Application resilient against common web attacks
+
+
+Recommendations
+Enable HTTPS encryption
+
+Regularly update PrestaShop and modules
+
+Restrict access to administrative directories
+
+Implement strong password policies
+
+Review firewall logs frequently
+
+Disable unnecessary directories/services
+
+
+Repository Contents
+Report: Full PDF security assessment
+
+Screenshots: Evidence of attack simulations and defenses
+
+Config: Custom ModSecurity rules
+
+
+Conclusion
+This project demonstrates hands-on experience in penetration testing, vulnerability scanning, and defensive security implementation.
+
+It highlights the importance of proactive security measures in protecting modern e-commerce platforms.
 
