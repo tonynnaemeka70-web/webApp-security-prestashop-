@@ -1,8 +1,12 @@
  PrestaShop Web Application Security Assessment
 
  Project Overview
-This repository documents a security assessment performed on a deployed PrestaShop web application.  
-The project demonstrates attack and defense security validation, showcasing practical penetration testing techniques and defensive implementations using a Web Application Firewall (WAF).
+ 
+This repository documents a security assessment performed on a deployed PrestaShop web application.
+
+The project demonstrates attack and defense security validation, showcasing practical penetration testing techniques and defensive
+
+implementations using a Web Application Firewall (WAF).
 
 - Assessment Type: Attack & Defense Security Validation  
 - Author: Nweke Nnaemeka Anthony  
