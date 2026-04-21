@@ -46,12 +46,13 @@ implementations using a Web Application Firewall (WAF).
 
 
  Defense Implementation
+ 
 A Web Application Firewall (ModSecurity) was configured with custom rules to block:
 - SQL Injection attempts  
 - XSS attempts  
 - Directory Traversal attempts  
 
-**Example Rule:**
+Example Rule:
 ```bash
 SecRule ARGS "@rx (?i:union.*select)" \
 "id:11001,phase:2,deny,status:403,msg:'SQL Injection Attempt'"
