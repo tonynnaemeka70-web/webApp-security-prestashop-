@@ -53,9 +53,9 @@ A Web Application Firewall (ModSecurity) was configured with custom rules to blo
 - Directory Traversal attempts  
 
 Example Rule:
-```bash
-SecRule ARGS "@rx (?i:union.*select)" \
-"id:11001,phase:2,deny,status:403,msg:'SQL Injection Attempt
+bash
+SecRule ARGS @rx (?i:union.*select)
+id:11001,phase:2,deny,status:403,msg:'SQL Injection Attempt
 
 Results
 Sensitive directories discovered during enumeration
