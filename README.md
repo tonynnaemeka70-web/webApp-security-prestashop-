@@ -87,8 +87,12 @@ Recommendations
 - [Full Security Assessment Report (PDF)](./Docs/Web%20Application%20Security%20Assessment%20Report.pdf)
 
 
- Screenshots
-- [Screenshots Folder](./screenshots/)
+  Screenshots
+- [Gobuster Scan Result](./Screenshot/Gobuster%20Scan%20Result.png)
+- [SQLMap Results](./Screenshot/SQLMap%20Results.png)
+- [WAF Blocking Attack 1](./Screenshot/WAF%20Blocking%20Attack%201.png)
+- [WAF Blocking Attack 2](./Screenshot/WAF%20Blocking%20Attack%202.png)
+
 
 
   Skills Demonstrated
