@@ -82,12 +82,12 @@ Recommendations
 
 
 Repository Contents
+  Documentation
+- [Full Security Assessment Report (PDF)](./docs/Web_Application_Security_Assessment_Report.pdf)
 
-1. Report: Full PDF security assessment
+ Screenshots
+- [Screenshots Folder](./screenshots/)
 
-2. Screenshots: Evidence of attack simulations and defenses
-
-3. Config: Custom ModSecurity rules
 
 
 Conclusion
