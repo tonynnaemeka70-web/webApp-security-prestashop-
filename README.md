@@ -83,9 +83,9 @@ Recommendations
 
  Contents Repository
   
-  -Documentation
- 
-- [Full Security Assessment Report (PDF)](./docs/Web_Application_Security_Assessment_Report.pdf)
+   Documentation
+- [Full Security Assessment Report (PDF)](./Docs/Web%20Application%20Security%20Assessment%20Report.pdf)
+
 
  Screenshots
 - [Screenshots Folder](./screenshots/)
