@@ -94,5 +94,7 @@ Conclusion
 
 This project demonstrates hands-on experience in penetration testing, vulnerability scanning, and defensive security implementation.
 
-It highlights the importance of proactive security measures in protecting modern e-commerce platforms.
+It highlights the importance of proactive security measures in protecting modern e-commerce platforms. additional It reflects my ability
+
+to conduct structured security assessments and implement effective defensive strategies.
 
