@@ -83,12 +83,21 @@ Recommendations
 
  Contents Repository
   
-  Documentation
+  -Documentation
  
 - [Full Security Assessment Report (PDF)](./docs/Web_Application_Security_Assessment_Report.pdf)
 
  Screenshots
 - [Screenshots Folder](./screenshots/)
+
+
+  Skills Demonstrated
+- Penetration testing methodology  
+- Vulnerability scanning & enumeration  
+- SQL Injection testing & mitigation  
+- Web Application Firewall (WAF) configuration  
+- Secure coding & defensive recommendations  
+
 
 
 
@@ -99,4 +108,11 @@ This project demonstrates hands-on experience in penetration testing, vulnerabil
 It highlights the importance of proactive security measures in protecting modern e-commerce platforms. additional It reflects my ability
 
 to conduct structured security assessments and implement effective defensive strategies.
+
+
+ Key Takeaways
+- Demonstrated ability to assess real‑world applications.  
+- Balanced offensive and defensive security practices.  
+- Produced professional documentation and recommendations.  
+
 
